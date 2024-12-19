@@ -1,6 +1,3 @@
-//
-// Created by guito on 26/11/2024.
-//
 
 //
 // Created by guito on 26/11/2024.
@@ -15,12 +12,15 @@
 #include <vector>
 
 using namespace std;
+class Caravana;
+class buffer;
+
 
 // Classe para gerenciar os parâmetros configuráveis do simulador
 class Simulador {
 private:
     std::vector<Caravana*> caravanas;  // Lista de caravanas
-    buffer &mapa;                      // Referência ao buffer do mapa
+    buffer& mapa;                      // Referência ao buffer do mapa
 
     // Parâmetros configuráveis
     int moedas;
@@ -34,7 +34,7 @@ private:
     int duracaoBarbaros;
 
 public:
-    Simulador(buffer &mapa); // Construtor para inicializar os parâmetros
+    Simulador(buffer& mapa); // Construtor para inicializar os parâmetros
     bool carregarParametros(const std::string& mapa, int inicioParametros); // Carregar os parâmetros do arquivo
     void exibirParametros() const;  // Exibir os parâmetros carregados no console
 

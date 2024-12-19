@@ -54,6 +54,13 @@ bool Simulador::carregarParametros(const std::string& mapa, int inicioParametros
     return true;
 }
 
+
+
+
+
+
+
+
 // Método para exibir os parâmetros no console
 void Simulador::exibirParametros() const {
     std::cout << "\nParametros Configuraveis:\n";

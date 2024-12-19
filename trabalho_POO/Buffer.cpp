@@ -19,7 +19,7 @@ void buffer::limparMapa() {
     }
 }
 
-bool buffer::carregarMapa(const std::string& nomeArquivo, Simulador& simulador) {
+bool buffer::carregarMapa(const std::string& nomeArquivo) {
     std::ifstream file(nomeArquivo);
     if (!file.is_open()) {
         std::cerr << "Erro ao abrir o arquivo: " << nomeArquivo << std::endl;

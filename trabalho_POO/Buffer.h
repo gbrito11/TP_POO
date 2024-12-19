@@ -6,6 +6,8 @@
 #include "simulador.h"
 
 class Simulador;
+
+
 class buffer {
 private:
     int linhas, colunas;      // Dimensões do mapa
@@ -17,7 +19,6 @@ public:
     ~buffer();                  // Destruidor
 
     bool carregarMapa(const std::string& nomeFicheiro);  // Carrega o mapa de um arquivo
-    bool carregarMapa(const std::string& nomeFicheiro, Simulador& simulador);
     char** getGrid() const { return grid; }
     void limparMapa();        // Limpa o mapa e libera a memória alocada
     void exibirMapa() const;  // Exibe o mapa no console

@@ -17,11 +17,11 @@ int main() {
         return 1;
     }
 
-    // Criar objeto da classe Simulador com o buffer
-    Simulador simulador(Buffer);
+     //Criar objeto da classe Simulador com o buffer
+    Simulador simulador( Buffer);
 
-    // Carregar e exibir os parâmetros configuráveis
-    if (simulador.carregarParametros(nomeArquivo, /*inicioParametros=*/12)) {
+
+    if (simulador.carregarParametros(nomeArquivo, 12)) {
         simulador.exibirParametros();
     } else {
         return 1;
