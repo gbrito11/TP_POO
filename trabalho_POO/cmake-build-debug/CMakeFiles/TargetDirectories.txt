@@ -1,0 +1,3 @@
+C:/Users/guito/OneDrive/Ambiente de Trabalho/trabalho_POO/cmake-build-debug/CMakeFiles/trabalho_POO.dir
+C:/Users/guito/OneDrive/Ambiente de Trabalho/trabalho_POO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/guito/OneDrive/Ambiente de Trabalho/trabalho_POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
